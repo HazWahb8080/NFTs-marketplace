@@ -25,7 +25,7 @@ const Home= ( {collections} : Props) => {
         </span> {''}
         Marketplace</h1>
 
-        <div className="bg-[#0F1318] rounded-t-md text-slate-100 w-full h-fit 2xl:h-[100vh] max-h-[500vh] p-24 
+        <div className="bg-[#0F1318] rounded-t-md text-slate-100 w-full h-fit max-h-[500vh] p-24 
         shadow-md shadow-green-400/30 flex items-start justify-start">
           <div className='grid gap-12 md:grid-cols-2  lg:grid-cols-3 2xl:grid-cols-4'>
             {collections.map( (collection) => (
